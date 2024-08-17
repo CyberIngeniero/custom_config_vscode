@@ -1,0 +1,414 @@
+{
+    // Ultima actualización: 13/agosto/2024
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[dockercompose]": {
+        "editor.autoIndent": "advanced",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[dockerfile]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "[dockerignore]": {
+        "editor.formatOnSave": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "apility.beautify-blade",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "javascript.inlayHints.enumMemberValues.enabled": true,
+        "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+        "javascript.inlayHints.parameterNames.enabled": "all",
+        "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+        "javascript.inlayHints.parameterTypes.enabled": true,
+        "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+        "javascript.inlayHints.variableTypes.enabled": true,
+        "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+        "javascript.preferences.importModuleSpecifierEnding": "js",
+        "javascript.updateImportsOnFileMove.enabled": "always"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "json.format.enable": true,
+        "json.sortOnSave.enable": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "GitHub.copilot"
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.environmentAutoReloading": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "python.analysis.importFormat": "absolute",
+        "python.terminal.activateEnvironment": false,
+        "ruff.importStrategy": "fromEnvironment",
+        "ruff.lint.args": [
+            "--config=pyproject.toml"
+        ],
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "tailwindCSS.experimental.configFile": null,
+        "tailwindCSS.includeLanguages": {
+            "plaintext": "html"
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "typescript.preferences.importModuleSpecifierEnding": "js",
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[quarto]":{
+        "editor.defaultFormatter": "apility.beautify-blade",
+        "editor.formatOnSave": true,
+        "quarto.mathjax.theme": "dark"
+    },
+    "azureResourceGroups.groupBy": "resourceType",
+    "breadcrumbs.enabled": false,
+    "chat.editor.wordWrap": "on",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "ahk": "autohotkey",
+        "applescript": "osascript",
+        "autoit": "autoit3",
+        "bat": "cmd /c",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "clojure": "lein exec",
+        "coffeescript": "coffee",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "crystal": "crystal",
+        "csharp": "scriptcs",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "dart": "dart",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fsharp": "fsi",
+        "go": "go run",
+        "groovy": "groovy",
+        "haskell": "runghc",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "javascript": "node",
+        "julia": "julia",
+        "kit": "kitc --run",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "lisp": "sbcl --script",
+        "lua": "lua",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "ocaml": "ocaml",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "perl": "perl",
+        "perl6": "perl6",
+        "php": "php",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "python": "clear && python -u",
+        "r": "Rscript",
+        "racket": "racket",
+        "ruby": "ruby",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "sass": "sass --style expanded",
+        "scala": "scala",
+        "scheme": "csi -script",
+        "scss": "scss --style expanded",
+        "shellscript": "bash",
+        "sml": "cd $dir && sml $fileName",
+        "swift": "swift",
+        "typescript": "ts-node",
+        "v": "v run",
+        "vbscript": "cscript //Nologo",
+        "zig": "zig run"
+    },
+    "code-runner.runInTerminal": true,
+    "CodeGPT.apiKey": "Custom",
+    "CodeGPT.Autocomplete.enabled": false,
+    "console-ninja.featureSet": "Community",
+    "continue.enableTabAutocomplete": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.codeLens": true,
+    "diffEditor.wordWrap": "on",
+    "dvc.doNotShowCliUnavailable": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.experimental.asyncTokenization": true,
+    "editor.accessibilitySupport": "off",
+    "editor.colorDecorators": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.detectIndentation": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.fontFamily": "Geist Mono, Fira Code, DankMono Nerd Font, Lilex, Hack Nerd Font Mono",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "500",
+    "editor.formatOnSave": true,
+    "editor.glyphMargin": false,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.hover.sticky": true,
+    "editor.inlayHints.enabled": "on",
+    "editor.inlayHints.fontFamily": "Jost",
+    "editor.inlayHints.fontSize": 10,
+    "editor.inlayHints.padding": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.scrollWithEditor": true,
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.guides.indentation": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.lineHeight": 32,
+    "editor.lineNumbers": "off",
+    "editor.linkedEditing": true,
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 250,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.padding.top": 16,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "none",
+    "editor.selectionHighlight": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "envKeys",
+                "scope": "string.quoted.single.ini,constant.numeric.ini,string.quoted.double.ini",
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#19354900"
+                }
+            },
+            {
+                "name": "comment",
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "javascript": "html",
+        "react": "html",
+        "vue": "html",
+        "vue-html": "html"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.sortOrder": "type",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": true,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.decorations.enabled": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "c": true,
+        "cpp": true,
+        "csharp": true,
+        "css": true,
+        "go": true,
+        "html": true,
+        "javascript": true,
+        "json": true,
+        "julia": true,
+        "powershell": true,
+        "python": true,
+        "r": true,
+        "rust": true,
+        "scala": true,
+        "scss": true,
+        "shellscript": true,
+        "sql": true,
+        "typescript": true,
+        "vb": true,
+        "xml": true,
+        "yaml": true
+    },
+    "html.autoClosingTags": true,
+    "license.author": "Nibaldo A. Pino Araya",
+    "notebook.output.wordWrap": true,
+    "notebook.lineNumbers": "on",
+    "prettier.requireConfig": true,
+    "prettier.tabWidth": 4,
+    "prettier.useEditorConfig": false,
+    "problems.decorations.enabled": false,
+    "rapidapi.terminalLink.enabled": true,
+    "remote.SSH.enableRemoteCommand": true,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.suppressWindowsSshWarning": true,
+    "scm.diffDecorations": "none",
+    "scm.showHistoryGraph": true,
+    "search.exclude": {
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/package-lock.json": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/{[^i],?[^n]}*": true,
+        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+        "**/vendor/{[^l],?[^ai]}*": true,
+        ".phpunit.result.cache": true,
+        "storage": true
+    },
+    "search.useIgnoreFiles": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "symbols.hidesExplorerArrows": false,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultLocation": "view",
+    "terminal.integrated.defaultProfile.windows": "Anaconda Prompt",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.env.windows": {
+        "ANACONDA_FOLDER": "miniconda3"
+    },
+    "terminal.integrated.fontFamily": "Geist Mono, Fira Code, DankMono Nerd Font, Lilex, Hack Nerd Font Mono",
+    "terminal.integrated.fontWeight": "800",
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "icon": "terminal-bash",
+            "path": "bash"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "icon": "terminal-tmux",
+            "path": "tmux"
+        },
+        "zsh": {
+            "path": "zsh"
+        }
+    },
+    "terminal.integrated.profiles.windows": {
+        "Anaconda Prompt": {
+            "args": [
+                "/K",
+                "${env:userprofile}\\miniconda3\\Scripts\\activate.bat"
+            ],
+            "icon": "terminal-cmd",
+            "path": [
+                "${env:windir}\\System32\\cmd.exe"
+            ]
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "PowerShell": {
+            "icon": "terminal-powershell",
+            "source": "PowerShell"
+        }
+    },
+    "terminal.integrated.shellIntegration.enabled": true,
+    "vetur.format.options.tabSize": 4,
+    "vscode_custom_css.imports": [
+        // Absolute file paths for your css/js files
+        // For Mac or Linux
+        // "file:///Users/your-user-name/custom-vscode.css"
+        // "file:///Users/your-user-name/custom-vscode-script.js"
+        // For Windows
+        "file:///C:/Users/NibaldoPinoAraya/Desktop/custom_vscode/custom-vscode.css",
+        "file:///C:/Users/NibaldoPinoAraya/Desktop/custom_vscode/custom-script.js"
+        // "file:///C:\path-of-custom-css\custom-vscode.css"
+        // "file:///C:\path-of-custom-css\custom-vscode-script.js"
+    ],
+    "window.nativeFullScreen": true,
+    "window.newWindowDimensions": "inherit",
+    "workbench.colorTheme": "focus",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.showTabs": "none",
+    "workbench.iconTheme": "symbols",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.lnkedEditing": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.list.openMode": "singleClick",
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 15,
+}
